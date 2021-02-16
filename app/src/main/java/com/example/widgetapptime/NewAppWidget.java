@@ -38,8 +38,8 @@ public class NewAppWidget extends AppWidgetProvider {
         CharSequence widgetText = context.getString (R.string.appwidget_text);
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews (context.getPackageName (), R.layout.new_app_widget);
-        views.setImageViewBitmap (R.id.imgtime, BuildUpdate ("20:25",100,context));
-        views.setImageViewBitmap (R.id.imgdate, BuildUpdate ("29/01/2021",25,context));
+        views.setImageViewBitmap (R.id.imgtime, BuildUpdate ("16:59",100,context));
+        views.setImageViewBitmap (R.id.imgdate, BuildUpdate ("16/02/2021",25,context));
 
         // Instruct the widget manager to update the widget
         appWidgetManager.updateAppWidget (appWidgetId, views);

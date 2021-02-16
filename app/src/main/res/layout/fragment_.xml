@@ -7,13 +7,9 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="188dp"
-        android:layout_height="117dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Sensor"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
- />
+        android:text="Activity 1" />
 
 </RelativeLayout>
